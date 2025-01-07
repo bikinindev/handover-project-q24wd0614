@@ -52,6 +52,6 @@ Folder "assets" can be downloaded [here](https://drive.google.com/file/d/1fT6wA_
 
 2. Folder "build".
 This Folder containing files in format that is ready to be deployed in web hosting.
-Folder "assets" can be downloaded [here](https://drive.google.com/file/d/1itImOozpyMsXt_klg6LxXR_FbdxcRDFW/view?usp=drive_link).
+Folder "build" can be downloaded [here](https://drive.google.com/file/d/1itImOozpyMsXt_klg6LxXR_FbdxcRDFW/view?usp=drive_link).
 
 
