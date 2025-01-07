@@ -1,0 +1,469 @@
+.w-pc-zillient-screen-collage {
+    /* background-color: rgb(226, 226, 226); */
+    /* height: 200vh; */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-zillient-screen-collage>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.background>.frame>img {
+    height: 100%;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+   
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid red */
+    
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left {
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    width: 80%;
+    padding: 1.8vw;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.145);
+
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x {
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo>div{
+    margin-right: 0.8vw;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.frame {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6.3vw;
+}
+
+/* .w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.frame>img {
+    height: 100%;
+} */
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.text>h2 {
+    font-size: 3.1vw;
+    color: #1eb5c0;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.text>p {
+    font-size: 2.1vw;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text {
+    box-sizing: border-box;
+    margin-top: 0.5vw;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text>p {
+    font-size: 1.1vw;
+    line-height: 200%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text>p:hover{
+    color: rgb(72, 72, 72);
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'CustomPoppinsBold';
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>h2{
+    font-size: 5vw;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 25vw;
+    max-height: 100%;
+    box-sizing: border-box;
+    /* background-color:#1eb5c070; */
+    border-radius: 10px;
+    padding: 1.5vw;
+    /* overflow-y: auto; */
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card{
+    height: 90%;
+    width: 75%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    color: rgb(36, 36, 36);
+    padding-inline: 1.3vw;
+    padding-block: 2vw;
+    color:#169da7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>h3{
+    text-align: center;
+    height: 25%;
+    font-size: 2.2vh;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>h3:hover{
+    opacity: 78%;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>.frame{
+    height: 75%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>.frame>img{
+    width: 100%;
+    transition: 0.3s ease-out;
+}
+.w-pc-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>.frame>img:hover{
+    transform: scale(1.1);
+}
+
+
+/* mobile */
+.w-mob-zillient-screen-collage {
+    /* background-color: rgb(226, 226, 226); */
+    /* height: 200vh; */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-zillient-screen-collage>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.background>.frame>img {
+    height: 100%;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+    /* background-color: blue; */
+    /* background-color: yellow; */
+}
+
+/* .w-mob-zillient-screen-collage>.wrapper>.content.display {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 100%;
+    box-sizing: border-box;
+    border: 1px solid red
+    
+} */
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left {
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    width: 80%;
+    padding: 1.8vw;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.145);
+
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x {
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo>div {
+    margin-right: 0.8vw;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.frame {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6.3vw;
+}
+
+/* .w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.frame>img {
+    height: 100%;
+} */
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.text>h2 {
+    font-size: 3.1vw;
+    color: #1eb5c0;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.tab-logo.grid-x>.text>p {
+    font-size: 2.1vw;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text {
+    box-sizing: border-box;
+    margin-top: 0.5vw;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text>p {
+    font-size: 1.1vw;
+    line-height: 200%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.grid-item.left>.object-wrapper>.list-text>p:hover {
+    color: rgb(72, 72, 72);
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'CustomPoppinsBold';
+    /* background-color: #169da7; */
+}
+.w-mob-zillient-screen-collage>.wrapper>.content.display>*{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>h2 {
+    font-size: 10vw;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 25vw;
+    max-height: 100%;
+    box-sizing: border-box;
+    /* background-color:#1eb5c070; */
+    border-radius: 10px;
+    /* padding: 1.5vw; */
+    /* overflow-y: auto; */
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card {
+    height: 90%;
+    width: 75%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    color: rgb(36, 36, 36);
+    padding-inline: 1.3vh;
+    padding-block: 2vh;
+    color: #169da7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>h3 {
+    text-align: center;
+    height: 25%;
+    font-size: 2.2vh;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>h3:hover {
+    opacity: 78%;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>.frame {
+    height: 75%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>.frame>img {
+    width: 100%;
+    transition: 0.3s ease-out;
+}
+
+.w-mob-zillient-screen-collage>.wrapper>.content.display>.collage>.item>.card>.frame>img:hover {
+    transform: scale(1.1);
+}

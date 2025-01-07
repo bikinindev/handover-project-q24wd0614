@@ -1,0 +1,338 @@
+.w-pc-career-division-collage {
+    /* background-color: rgb(226, 226, 226); */
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-career-division-collage>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-career-division-collage>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-career-division-collage>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-career-division-collage>.wrapper>.background>.frame>img{
+    width: 100%;
+    
+}
+
+.w-pc-career-division-collage>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-career-division-collage>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+.w-pc-career-division-collage>.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>h2{
+    font-size: 3.7vw;
+    font-family: 'CustomPoppinsBold';
+    text-align: center;
+    line-height: 150%;
+    margin-block: 2vw;
+    color: rgb(45, 45, 45);
+
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 30vh;
+    box-sizing: border-box;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px dashed black; */
+    padding: 1vw;
+}
+
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative{
+    position: relative;
+    /* background-color: yellow; */
+}
+
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs{
+    position: absolute;
+}
+
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.background{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    box-sizing: border-box;
+}.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.background>.frame{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.background>.frame>img{
+    height: 100%;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.shield{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); */
+    box-sizing: border-box;
+    opacity: 50%;
+    transition: 0.3s ease-out;
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.shield.hover{
+    opacity: 80%;
+    transition: 0.3s ease-out;
+    background-color: black;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.776)); */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+.w-pc-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.content{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    box-sizing: border-box;
+    padding: 1.3vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #fff;
+}
+
+
+/* mobile */
+.w-mob-career-division-collage {
+    /* background-color: rgb(226, 226, 226); */
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-mob-career-division-collage>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-mob-career-division-collage>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-career-division-collage>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-mob-career-division-collage>.wrapper>.background>.frame>img {
+    width: 100%;
+
+}
+
+.w-mob-career-division-collage>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-career-division-collage>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+    /* background-color: red; */
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>h2 {
+    font-size: 4vh;
+    font-family: 'CustomPoppinsBold';
+    text-align: center;
+    line-height: 110%;
+    margin-bottom: 3vh;
+    color: rgb(45, 45, 45);
+
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 30vh;
+    box-sizing: border-box;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px dashed black; */
+    padding: 1vw;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative {
+    position: relative;
+    /* background-color: yellow; */
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs {
+    position: absolute;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    box-sizing: border-box;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.background>.frame {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.background>.frame>img {
+    height: 100%;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.shield {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); */
+    box-sizing: border-box;
+    opacity: 50%;
+    transition: 0.3s ease-out;
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.shield.hover {
+    opacity: 80%;
+    transition: 0.3s ease-out;
+    background-color: black;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.776)); */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+
+.w-mob-career-division-collage>.wrapper>.content.display>.wrapper.collage>.item>.card.wrapper-relative>.card-section.wrapper-abs.content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    box-sizing: border-box;
+    padding: 1.3vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #fff;
+}

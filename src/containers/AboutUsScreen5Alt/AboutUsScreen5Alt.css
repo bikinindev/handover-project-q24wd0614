@@ -1,0 +1,229 @@
+.w-pc-about-us-screen-5-alt {
+    /* background-color: rgb(226, 226, 226); */
+    height: 60vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+.w-pc-about-us-screen-5-alt>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen {
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-auto-rows: 100%;
+    height: 60%;
+    width: 70%;
+    box-sizing: border-box;
+    padding-block: 2.2vw;
+    padding-inline: 4vw;
+    background-color: rgb(245, 245, 245);
+    border-radius: 19px;
+    
+}
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.image>.frame>img{
+    height: 13vw;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.text>.text-wrapper>h2 {
+    color: #1eb5c0;
+    font-family: 'CustomPoppinsBold';
+    font-size: 1.7vw;
+}
+.w-pc-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.text>.text-wrapper>p {
+    color: #1eb5c0;
+    font-family: 'CustomPoppinsBold';
+    font-size: 3.5vw;
+    line-height: 110% ;
+}
+
+/* mobile */
+.w-mob-about-us-screen-5-alt {
+    /* background-color: rgb(226, 226, 226); */
+    height: 60vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 50% 50%;
+    height: 70%;
+    width: 90%;
+    box-sizing: border-box;
+    padding-block: 2.2vw;
+    padding-inline: 4vw;
+    background-color: rgb(245, 245, 245);
+    border-radius: 19px;
+
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.image>.frame{
+    overflow: hidden;
+    height: 15vh;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.image>.frame>img {
+    height: 100%;;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.text>.text-wrapper>h2 {
+    color: #1eb5c0;
+    font-family: 'CustomPoppinsBold';
+    font-size: 2.5vh;
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+.w-mob-about-us-screen-5-alt>.wrapper>.content.display>.screen>.grid-item.text>.text-wrapper>p {
+    color: #1eb5c0;
+    font-family: 'CustomPoppinsBold';
+    font-size: 3.5vh;
+    line-height: 110%;
+    text-align: center;
+}

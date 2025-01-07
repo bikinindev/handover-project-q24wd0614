@@ -1,0 +1,355 @@
+.w-pc-contact-screen1-alt{
+    /* background-color: rgb(226, 226, 226); */
+    height: 194vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-contact-screen1-alt>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.header{
+    height: 65vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../../assets/img/contactus/contactus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.header>
+.text {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.header>.text>h2{
+    font-size: 6.5vw;
+    text-align: center;
+    color: #fff;
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.header>.text>p {
+    font-size: 1.3vw;
+    text-align: center;
+    color: #fff;
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form {
+    box-sizing: border-box;
+    
+}
+
+
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form {
+    background-color: #084c42cc;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    width: 30vw;
+    box-sizing: border-box;
+    padding-inline: 3vw;
+    padding-block: 3vh;
+    border-radius: 10px;
+    color: #fff;
+    width: 100vw;
+    justify-content: center;
+    /* background-color: red; */
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div {
+    margin-block: 4vh;
+    display: flex;
+    flex-direction: column;
+    width: 34vw;
+    /* background-color: red; */
+
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>input,
+select {
+    border: 0;
+    outline: 0;
+    font-size: 2.2vh;
+    padding-block: 1.3vh;
+    padding-inline: 0.9vw;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 1vh;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>.submit-button {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>button {
+    height: 7vh;
+    font-size: 2.2vh;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding-inline: 5vw;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>button:hover {
+    background-color: #031a1b;
+    color: #fff;
+}
+
+.w-pc-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>button:active {
+    background-color: #032122;
+    color: #fff;
+}
+
+
+
+/* mobile */
+.w-mob-contact-screen1-alt {
+    /* background-color: rgb(226, 226, 226); */
+    height: 194vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-mob-contact-screen1-alt>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.header {
+    /* height: 100%; */
+    height: 65vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../../assets/img/contactus/contactus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.header>.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding-block: 1.5vh;
+    padding-inline: 0.8vh;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.header>.text>h2 {
+    font-size: 5vh;
+    text-align: center;
+    color: #fff;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.header>.text>p {
+    font-size: 1.7vh;
+    text-align: center;
+    color: #fff;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form {
+    box-sizing: border-box;
+
+}
+
+
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form {
+    background-color: #084c42cc;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    width: 30vw;
+    box-sizing: border-box;
+    padding-inline: 3vw;
+    padding-block: 3vh;
+    /* border-radius: 10px; */
+    color: #fff;
+    width: 100vw;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div {
+    margin-block: 4vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    /* background-color: red; */
+
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>input,
+select {
+    border: 0;
+    outline: 0;
+    font-size: 2.2vh;
+    padding-block: 1.3vh;
+    padding-inline: 1vh;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 1vh;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>.submit-button {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>button {
+    height: 6vh;
+    font-size: 2.5vh;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding-inline: 5vh;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>button:hover {
+    background-color: #031a1b;
+    color: #fff;
+}
+
+.w-mob-contact-screen1-alt>.wrapper>.content.display>.screen.form>.form>form>div>button:active {
+    background-color: #032122;
+    color: #fff;
+}

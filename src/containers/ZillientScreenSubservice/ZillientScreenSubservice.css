@@ -1,0 +1,270 @@
+.w-pc-zillient-screen-subservice {
+    /* background-color: rgb(226, 226, 226); */
+    height: 150vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; */
+
+    display: flex;
+        width: 100%;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item{
+    min-width: 100%;
+        margin-right: 20px;
+        height: 100%;
+        width: 300px;
+        border-radius: 8px;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: yellow; */
+        box-sizing: border-box;
+        padding: 1vw;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card{
+    height: 90%;
+        width: 100%;
+        box-sizing: border-box;
+        padding-inline: 5%;
+        background-color:#3e3d3d7a;
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper{
+    /* background-color:aquamarine; */
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.frame{
+    overflow: hidden;
+    width: 40vw;
+    height: 27vw;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.frame>img{
+    width: 100%;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>h2{
+    padding-top: 1.5vw;
+    /* color: rgb(39, 39, 39); */
+    text-align: center;
+    font-size: 3.5vw;
+    line-height: 130%;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.text-wrapper {
+    /* background-color: rgb(26, 101, 76); */
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 3vw;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.text-wrapper>.text-section{
+    margin-block: 0.7vw;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.text-wrapper>.text-section>h3{
+    line-height: 110%;
+    font-size: large;
+    /* color: rgb(39, 39, 39); */
+    margin-bottom: 0.6vw;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.wrapper.grid>.item>.card>.text-wrapper>.text-section>p{
+    line-height: 150%;
+    font-size: small;
+    /* color: rgb(39, 39, 39); */
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>
+.scroll-wrapper.frame.left{
+    width: 3.9vw;
+        height: 3.9vw;
+        overflow: hidden;
+        opacity: 50%;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        cursor: pointer;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>
+.scroll-wrapper.frame.right {
+    transform: rotate(180deg);
+    width: 3.9vw;
+    height: 3.9vw;
+    overflow: hidden;
+    opacity: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.scroll-wrapper.frame>img{
+    height: 100%;
+    filter: invert(80%);
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.scroll-wrapper.frame>img:hover{
+    transform: scale(0.9);
+}
+
+/* .w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30vw);
+    grid-auto-rows: 30vw;
+    box-sizing: border-box;
+    padding-block: 4vh;
+    width: 95%;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>
+.grid-item{
+    box-sizing: border-box;
+    padding-inline: 1vw;
+    padding-block: 1vw;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card{
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.244);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 50% 50%;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 72% 28%;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y>.frame {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y>.frame>img{
+    width: 100%;
+}
+
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y>.text {
+    box-sizing: border-box;
+    padding-block:1vw;
+    padding-inline:1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.w-pc-zillient-screen-subservice>.wrapper>.content.display>.cardholder>.grid-item>.card.grid-y>.text>h2{
+    font-size: 1.2vw;
+    text-overflow: ellipsis;
+} */
+
+
+
+/* .slider-container {
+    overflow: hidden;
+    width: 100%;
+    outline: none;
+} */
+
+/* .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+} */
+/* 
+.box-slider {
+    min-width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+} */

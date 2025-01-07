@@ -1,0 +1,488 @@
+.w-pc-revolutionary-conveyor {
+    height: 90vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(234, 233, 233, 0.354);
+}
+
+.w-pc-revolutionary-conveyor.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* background-color: #2a4261; */
+    /* background-color: gray; */
+    height: 90vh;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    /* background-color: #2a4261; */
+    /* background-color: black; */
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: rgb(45, 45, 45);
+}
+
+/* .scroll-wrapper{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+/* .scroll-wrapper.display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:1vw;
+    box-sizing: border-box;
+} */
+.scroll-wrapper.frame.left {
+    width: 3vw;
+    height: 3vw;
+    overflow: hidden;
+    opacity: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img {
+    height: 5vh;
+    filter: invert(40%);
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img:hover{
+    transform: scale(0.9);
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame.right{
+    transform: rotate(180deg);
+    width: 3vw;
+    height: 3vw;
+    overflow: hidden;
+    opacity: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.text-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.text-wrapper>h2 {
+    color: rgb(45, 45, 45);
+    font-size: 2.5vw;
+    line-height: 110%;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2vh;
+    /* background-color: red; */
+}
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.text-wrapper>h3 {
+    color: rgb(45, 45, 45);
+    font-size: 3.8vw;
+    /* margin-left: 1.1vw; */
+    color: #0cacb7;
+    /* background-color: red; */
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* background-color: blue; */
+   
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item{
+    min-width: 24vw;
+    height: 30vw;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1vw;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper{
+    background-color: green;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>
+.card.wrapper>.background{
+    background-color: rgb(100, 210, 247);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>
+.card.wrapper>.shield{
+    background-color: rgba(0, 0, 0, 0.293);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>
+.card.wrapper>.content{
+    /* background-color: #fff; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.background>.frame{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.background>.frame>img{
+    height: 100%;
+}
+
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.content>.text-wrapper{
+    box-sizing: border-box;
+}
+.w-pc-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.content>.text-wrapper>h2{
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+
+/* mobile */
+.w-mob-revolutionary-conveyor {
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(234, 233, 233, 0.354);
+}
+
+.w-mob-revolutionary-conveyor.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* background-color: #2a4261; */
+    /* background-color: gray; */
+    height: 70vh;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-inline: 10vw;
+    box-sizing: border-box;
+    /* background-color: #2a4261; */
+    /* background-color: black; */
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: rgb(45, 45, 45);
+}
+
+/* .scroll-wrapper{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+/* .scroll-wrapper.display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:1vw;
+    box-sizing: border-box;
+} */
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame.left {
+    width: 5vh;
+    height: 5vh;
+    overflow: hidden;
+    opacity: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img{
+    height: 5vh;
+    filter: invert(40%);
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img:hover{
+    transform: scale(0.9);
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.scroll-wrapper.frame.right{
+    transform: rotate(180deg);
+    width: 5vh;
+    height: 5vh;
+    overflow: hidden;
+    opacity: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.text-wrapper>h2 {
+    color: rgb(45, 45, 45);
+    font-size: large;
+    line-height: 110%;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2vh;
+    /* background-color: red; */
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.text-wrapper>h3 {
+    color: rgb(45, 45, 45);
+    font-size: 3.8vw;
+    /* margin-left: 1.1vw; */
+    color: #0cacb7;
+    /* background-color: red; */
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* background-color: blue; */
+
+
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item {
+    min-width:80vw;
+    height: 100%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1vw;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper {
+    background-color: green;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.background {
+    background-color: rgb(100, 210, 247);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.shield {
+    background-color: rgba(0, 0, 0, 0.293);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.content {
+    /* background-color: #fff; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.background>.frame>img {
+    height: 100%;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.content>.text-wrapper {
+    box-sizing: border-box;
+}
+
+.w-mob-revolutionary-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card.wrapper>.content>.text-wrapper>h2 {
+    box-sizing: border-box;
+    font-size: large;
+    color: #fff;
+}

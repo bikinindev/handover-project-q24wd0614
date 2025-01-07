@@ -1,0 +1,546 @@
+.w-pc-about-us-screen3 {
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-color: whitesmoke;
+}
+
+.w-pc-about-us-screen3>* {
+    box-sizing: border-box;
+}
+
+.w-pc-about-us-screen3>.wrapper {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: rgba(255, 255, 255); */
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.bg>img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.shield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 100%;
+    box-sizing: border-box;
+    /* background-color: rgba(255, 255, 0, 0.274); */
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.left{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 80%;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section{
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+    padding-left: 4.8vw;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-1{
+    padding-top: 4vh;
+    box-sizing: border-box;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-1>p{
+    font-size: 20px;
+    color:#1EB5C0;
+    font-family: "CustomPoppinsBold";
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-2>h2 {
+    font-size: 60px;
+    line-height: 65px;
+    color: #1EB5C0;
+    margin-bottom: 5vh;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-2>p{
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 2vh;
+    width: 89%;
+    text-align: justify;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right>.child-background>.frame {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* border: blue; */
+    overflow: hidden;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right>.child-background>.frame>img {
+    width: 100%;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: #fff; */
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    border-radius: 19px;
+    width: 89%;
+    margin-top: 20vh;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 16vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-inline: 2vw;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>
+.grid-item{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>
+.grid-item.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.image>.frame {
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    width: 13vh;
+    height: 13vh; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.image>.frame>img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>
+.grid-item.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-pc-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.text>p{
+    font-size: 1.8vh;
+}
+
+
+
+/* tab */
+.w-tab-home-screen1 {
+    /* background-color: #2BB2BB; */
+    height: 100vh;
+    /* width: 100vw; */
+    box-sizing: border-box;
+}
+
+;
+
+.w-tab-home-screen1>* {
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+
+.w-tab-home-screen1>.wrapper {
+    /* background-color: aliceblue; */
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.w-tab-home-screen1>.wrapper>.screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.bg {
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    overflow-y: hidden;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.bg>img {
+    width: 150%;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.shield {
+    background-color: black;
+    opacity: 39%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content {
+    /* background-color: yellow; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>div {
+    /* border: 1px dashed white; */
+    padding-inline: 3vw;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.tagline>h1 {
+    font-size: 6vh;
+    line-height: 8vh;
+    color: #fff;
+    width: 70%;
+    /* margin-bottom: 0vh; */
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.buttons>* {
+    margin-inline: 3px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.buttons>.button:hover {
+    background-color: #bdbdbd;
+    color: #292828;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.buttons>.button-1 {
+    padding-block: 20px;
+    padding-inline: 30px;
+    background-color: #292828;
+    text-align: center;
+    color: #fff;
+}
+
+.w-tab-home-screen1>.wrapper>.screen.content>.buttons>.button-2 {
+    padding-block: 20px;
+    padding-inline: 20px;
+    background-color: #07747B;
+    text-align: center;
+    color: #fff;
+}
+
+/* mobile */
+.w-mob-about-us-screen3 {
+    height: 110vh;
+    /* border: 1px solid red; */
+    background-color: whitesmoke;
+    /* background-color: red; */
+    
+}
+
+.w-mob-about-us-screen3>* {
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen3>.wrapper {
+    height: 110vh;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: rgba(255, 255, 255); */
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.bg>img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.shield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content {
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    /* grid-auto-rows: 100%; */
+    /* box-sizing: border-box; */
+    /* background-color: rgba(255, 255, 0, 0.274); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    /* height: 50%; */
+    width: 100%;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left{
+    /* display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    height: 55%;
+    /* background-color: red; */
+    padding-block: 4vh;
+    
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section{
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+    padding-inline: 5vw;
+    /* padding-left: 4.8vw; */
+    /* background-color: gray; */
+   
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-1{
+    /* padding-top: 4vh; */
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* border: 5px solid dashed green; */
+    
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-1>p{
+    font-size: 2vh;
+    color: #1EB5C0;
+    font-family: "CustomPoppinsBold";
+}
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-2{
+    box-sizing: border-box;
+    /* background-color:yellowgreen; */
+    height: 90%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-2>h2{
+    font-size: 4.6vh;
+    line-height: 120%;
+    width: 100%;
+    color: #1EB5C0;
+    margin-bottom: 2vh;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.left>.section.box-2>p{
+    font-size: 1.7vh;
+    line-height: 130%;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 1vh;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display{
+    position: relative;
+    box-sizing: border-box;
+    height: 45%;
+    /* background-color: red; */
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right>.child-background>.frame {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* border: blue; */
+    overflow: hidden;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right>.child-background>.frame>img {
+    width: 100%;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 5vw;
+    padding-block: 7vh;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    border-radius: 19px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 55% 45%;
+    height: 100%;
+    box-sizing: border-box;
+    
+    background-color: #fff;
+    padding-block: 1vh;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* border: 1px solid yellow; */
+    padding-inline: 2vw;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.image>.frame {
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    height: 14vh;
+    width: 14vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.image>.frame>img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.w-mob-about-us-screen3>.wrapper>.screen.content>.grid-item.right.display>.child-content>.object-wrapper.grid>.grid-item.text>p {
+    font-size: 1.8vh;
+    text-align: center;
+}

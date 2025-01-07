@@ -1,0 +1,136 @@
+.w-pc-banner-screen-3 {
+    /* background-color: rgb(226, 226, 226); */
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-banner-screen-3>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-banner-screen-3>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-banner-screen-3>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-banner-screen-3>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-banner-screen-3>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    background-color: rgba(0, 0, 0, 0.36);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+    backdrop-filter: blur(3px);
+}
+
+.w-pc-banner-screen-3>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10vh;
+    height: 100%;
+    width: 100%;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    padding:3vw;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.347);
+    color: rgb(33, 33, 33);
+    background-color: rgba(255, 255, 255, 0.851);
+    backdrop-filter: blur(8px);
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card>.object-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    box-sizing: border-box;
+    /* border: 1px dashed yellow; */
+    width: 100%;
+    margin-bottom: 1vh;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card>.object-wrapper>.frame{
+    overflow: hidden;
+    height: 8vh;
+    width: 8vh;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card>.object-wrapper>.frame>img{
+    height: 100%;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card>.object-wrapper>.text{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px dashed yellow; */
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card>.object-wrapper>.text>h2{
+    font-size: 3vw;
+    color: #1eb5c0;
+}
+.w-pc-banner-screen-3>.wrapper>.content.display>.section.left>.card>.object-wrapper>.text>p{
+    font-size: 2vw;
+}
+
+
+
+
+
+ 

@@ -1,0 +1,70 @@
+.w-pc-banner-screen2 {
+    /* background-color: rgb(226, 226, 226); */
+    height: 60vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-banner-screen2>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-banner-screen2>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 199, 255);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-banner-screen2>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-banner-screen2>.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-banner-screen2>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    background-color: rgba(0, 0, 0, 0.36);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+    backdrop-filter: blur(3px);
+}
+
+.w-pc-banner-screen2>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+.w-pc-banner-screen2>.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25vh;
+}
+.w-pc-banner-screen2>.wrapper>.content.display>h1{
+    text-align: center;
+        font-size: 4vw;
+        font-family: 'CustomPoppinsBold';
+        color: #fff;
+}

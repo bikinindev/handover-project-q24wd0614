@@ -1,0 +1,210 @@
+.w-pc-home-screen1b{
+    height: 38vh;
+    width: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+
+
+.w-pc-home-screen1b>
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100%;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    height: 100%;
+    
+}
+
+.w-pc-home-screen1b>
+.wrapper>
+.grid-item{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    height: 100%;
+}
+
+.w-pc-home-screen1b>
+.wrapper>
+.grid-item.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.w-pc-home-screen1b>
+.wrapper>
+.grid-item.image>
+img{
+    height: 60%;
+    /* border-radius: 50%; */
+}
+
+
+.w-pc-home-screen1b>
+.wrapper>
+.grid-item.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 90%;
+}
+
+.w-pc-home-screen1b>
+.wrapper>
+.grid-item.text-wrapper>
+h2{
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+
+.w-pc-home-screen1b>
+.wrapper>
+.grid-item.text-wrapper>
+p {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+
+/* tab */
+.w-tab-home-screen1b {
+    height: 30vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.w-tab-home-screen1b>.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 30vw;
+    box-sizing: border-box;
+    
+    /* border: 1px solid green; */
+}
+
+/* tab-pc-home-screen1b>
+.wrapper>
+.grid-item{
+    border: 1px solid red;
+} */
+
+.w-tab-home-screen1b>.wrapper>.grid-item.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-home-screen1b>.wrapper>.grid-item.image>img {
+    height: 13vw;
+    /* border-radius: 50%; */
+}
+
+
+.w-tab-home-screen1b>.wrapper>.grid-item.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 90%;
+    padding-left: 2%;
+}
+
+.w-tab-home-screen1b>.wrapper>.grid-item.text-wrapper>h2 {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+
+.w-tab-home-screen1b>.wrapper>.grid-item.text-wrapper>p {
+    font-size: 2vw;
+    line-height: 3.5vw;
+    text-align: justify;
+}
+
+
+/* mobile */
+.w-mob-home-screen1b {
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: gray; */
+    /* border: 3px solid blue; */
+    padding-block: 5vh;
+
+}
+
+
+.w-mob-home-screen1b>.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    /* grid-auto-rows: 13vh; */
+    grid-template-rows: 20vh 40vh;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    /* background-color: gray; */
+    /* background-color: yellow; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* mob-pc-home-screen1b>
+.wrapper>
+.grid-item{
+    border: 1px solid red;
+} */
+.w-mob-home-screen1b>.wrapper>.grid-item{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.w-mob-home-screen1b>.wrapper>.grid-item.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-home-screen1b>.wrapper>.grid-item.image>img{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3vw;
+    /* border-radius: 50%; */
+}
+
+
+.w-mob-home-screen1b>.wrapper>.grid-item.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-inline: 6vw;
+    /* padding-top: 0vh; */
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.w-mob-home-screen1b>.wrapper>.grid-item.text-wrapper>h2 {
+    font-size: 5vh;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+
+.w-mob-home-screen1b>.wrapper>.grid-item.text-wrapper>p {
+    font-size: 3.5vw;
+    line-height: 6vw;
+    text-align: justify;
+    box-sizing: border-box;
+    /* background-color: pink; */
+}

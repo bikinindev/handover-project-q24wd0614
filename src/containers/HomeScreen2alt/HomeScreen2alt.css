@@ -1,0 +1,117 @@
+.w-pc-home-screen-2-alt{
+    height: 62vh;
+    width: 100%;
+    /* background-color: #0cacb7; */
+    background-color: var(--screen-bg-color);
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3vh;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.w-pc-home-screen-2-alt>.wrapper{
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 90vw;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-home-screen-2-alt>.wrapper>img{
+    height: 110%;
+}
+
+
+/* tab */
+.w-tab-home-screen-2-alt {
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: #0cacb7; */
+    background-color: var(--screen-bg-color);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3vh;
+}
+
+.w-tab-home-screen-2-alt>.wrapper {
+    /* border: 1px solid white; */
+    height: 50vh;
+    width: 90vw;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-home-screen-2-alt>.wrapper>img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+/* mobile */
+
+.w-mob-home-screen-2-alt {
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: #0cacb7; */
+    background-color: var(--screen-bg-color);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3vh;
+    box-sizing: border-box;
+    /* border: 3px solid red; */
+    height: 100vh;
+}
+
+.w-mob-home-screen-2-alt>.wrapper {
+    /* border: 1px solid white; */
+    /* height: 50vh; */
+    width: 90vw;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-mob-home-screen-2-alt>.wrapper>.frame{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-mob-home-screen-2-alt>.wrapper>.frame.top {
+    height: 28.5vh;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.w-mob-home-screen-2-alt>.wrapper>.frame.bottom{
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.w-mob-home-screen-2-alt>.wrapper>.frame>img{
+    width: 100%;
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+}

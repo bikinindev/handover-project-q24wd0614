@@ -1,0 +1,497 @@
+.w-pc-prova-conveyor {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(234, 233, 233, 0.354);
+}
+
+.w-pc-prova-conveyor.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* background-color: #2a4261; */
+    /* background-color: gray; */
+    height: 100vh;
+}
+
+.w-pc-prova-conveyor.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-pc-prova-conveyor.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-pc-prova-conveyor.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-pc-prova-conveyor.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-prova-conveyor.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-inline: 1vw;
+    box-sizing: border-box;
+    /* background-color: #2a4261; */
+    /* background-color: black; */
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: rgb(45, 45, 45);
+}
+.w-pc-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame.left{
+    width: 3vw;
+    height: 3vw;
+    overflow: hidden;
+    opacity: 0%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img{
+    height: 5vh;
+    filter: invert(90%);
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img:hover{
+    transform: scale(0.9);
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame.right{
+    transform: rotate(180deg);
+    width: 3vw;
+    height: 3vw;
+    overflow: hidden;
+    opacity: 0%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    cursor: pointer;
+}
+.w-pc-prova-conveyor.wrapper>.content.display>.text-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.text-wrapper>h2{
+    color: rgb(45, 45, 45);
+    font-size: 3.8vw;
+    /* background-color: red; */
+}
+.w-pc-prova-conveyor.wrapper>.content.display>.text-wrapper>h3 {
+    color: rgb(45, 45, 45);
+    font-size: 3.8vw;
+    margin-left: 1.1vw;
+    color: #0cacb7;
+    /* background-color: red; */
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* background-color: blue; */
+   
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item{
+    min-width: 10vw;
+    /* margin-right: 5px; */
+    height: 30vw;
+    width: 300px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5px;
+    
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card{
+    height: 95%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.frame{
+    height: 30%;
+    width: 25%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-self: end;
+    transform: translate(0vw, 0vw);
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.frame>img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.frame{
+    overflow: hidden;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 20px;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.frame>img{
+    height: 100%;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper{
+    height: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.193);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper{
+    padding-block: 3vw;
+    padding-inline: 1.5vw;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text{
+    padding-top: 3vh;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text>h2{
+    color: rgb(45, 45, 45);
+    font-size: 2vw;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding-top: 2vh;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text>h2:hover {
+    transition: 0.3s ease;
+    color: #cecbcb;
+}
+
+.w-pc-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text>p {
+    color: rgb(45, 45, 45);
+    font-size: 1.2vw;
+    text-align: justify;
+    width: 90%;
+}
+
+
+
+
+/* mobile */
+.w-mob-prova-conveyor {
+    height: 150vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(234, 233, 233, 0.354);
+}
+
+.w-mob-prova-conveyor.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+    /* background-color: #2a4261; */
+    /* background-color: gray; */
+    height: 150vh;
+}
+
+.w-mob-prova-conveyor.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(95, 199, 255); */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-prova-conveyor.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-mob-prova-conveyor.wrapper>.background>.frame>img {
+    width: 100%;
+}
+
+.w-mob-prova-conveyor.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-prova-conveyor.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1vw;
+    box-sizing: border-box;
+    /* background-color: #2a4261; */
+    /* background-color: black; */
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: rgb(45, 45, 45);
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame.left{
+    width: 3vw;
+    height: 3vw;
+    overflow: hidden;
+    opacity: 0%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img{
+    height: 5vh;
+    filter: invert(90%);
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame>img:hover {
+    transform: scale(0.9);
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.scroll-wrapper.frame.right{
+    transform: rotate(180deg);
+    width: 3vw;
+    height: 3vw;
+    overflow: hidden;
+    opacity: 0%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.text-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.text-wrapper>h2{
+    color: rgb(45, 45, 45);
+    font-size: 3.5vh;
+    /* background-color: red; */
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.text-wrapper>h3{
+    color: rgb(45, 45, 45);
+    font-size: 2.5vh;
+    margin-left: 1.1vw;
+    color: #0cacb7;
+    /* background-color: red; */
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; */
+    /* background-color: blue; */
+
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item{
+    min-width: 10vw;
+    /* margin-right: 5px; */
+    height: 55vw;
+    width: 50%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5px;
+    /* background-color: #0cacb7; */
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* background-color: red; */
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.frame{
+    height: 30%;
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-self: end;
+    transform: translate(0vw, 0vw);
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.frame>img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.frame{
+    overflow: hidden;
+    height: 5.6vh;
+    width: 5.6vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.frame>img {
+    height: 100%;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper{
+    height: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.193);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper{
+    padding-block: 3vw;
+    padding-inline: 1.5vw;
+}
+/* .w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>div{
+    background-color: #0cacb7;
+} */
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text{
+    padding-top: 0vh;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text>h2{
+    color: rgb(45, 45, 45);
+    font-size: 2.5vh;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding-top: 2vh;
+    padding-inline: 2vw;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text>h2:hover {
+    transition: 0.3s ease;
+    color: #cecbcb;
+}
+
+.w-mob-prova-conveyor.wrapper>.content.display>.wrapper.grid>.item>.card>.object-wrapper>.text>p{
+    color: rgb(45, 45, 45);
+    font-size: 1.5vh;
+    text-align: justify;
+    width: 90%;
+    padding-inline:2vw;
+}

@@ -1,0 +1,285 @@
+.w-pc-home-screen5b{
+    height: 80vh;
+    width: 100%;
+    background-color: #22939b;
+}
+
+.w-pc-home-screen5b>.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #22939b;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 24vw);
+    grid-template-rows: 100%;
+    box-sizing: border-box;
+
+    align-items: center;   
+    justify-content: center;
+    /* border: 0.5px solid red; */
+    padding-block: 7vh;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-inline: 1.5vw;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>div{
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.image{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.image>img{
+    height: 130%;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    padding-inline: 1vw;
+    padding-top: 3.5vh;
+}
+
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content>h4{
+    color: #fff;
+    background-color: #22939b;
+    border-radius: 30px;
+    padding-block: 0.9vh;
+    width: 8vw;
+    text-align: center;
+    font-size: 11px;
+
+}
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content>h2{
+    font-size: 30px
+}
+.w-pc-home-screen5b>.wrapper>.grid-item>.card>.content>p {
+    font-size: 12px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+/* tab */
+.w-tab-home-screen5b {
+    height: 50vw;
+    width: 100%;
+    background-color: #22939b;
+    padding-block: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-home-screen5b>.wrapper {
+    width: 100%;
+    height: 40vw;
+    background-color: #22939b;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 24.5vw);
+    grid-template-rows: 40vw;
+    box-sizing: border-box;
+
+    align-items: center;
+    justify-content: center;
+    /* border: 0.5px solid white; */
+    /* padding-block: 7vh; */
+    /* background-color: red; */
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5vw;
+    
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>div {
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>.image {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>.image>img {
+    height: 130%;
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    padding-inline: 1vw;
+    padding-top: 2vw;
+    /* border: 1px solid red; */
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>.content>h4 {
+    color: #fff;
+    background-color: #22939b;
+    border-radius: 30px;
+    padding-block: 1vw;
+    width: 8vw;
+    text-align: center;
+    font-size: 11px;
+    
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>.content>h2 {
+    font-size: 2vw;
+    padding-top: 1vw;
+}
+
+.w-tab-home-screen5b>.wrapper>.grid-item>.card>.content>p {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    text-align: justify;
+    padding-top: 1vw;
+}
+
+
+
+/* mobile */
+.w-mob-home-screen5b {
+    height: 100vw;
+    /* width: 100%; */
+    background-color: #22939b;
+    padding-block: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
+
+.w-mob-home-screen5b>.wrapper {
+    width: 340vw;
+    height: 100vw;
+    /* background-color: red; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,80vw);
+    grid-template-rows: 100vw;
+    /* box-sizing: border-box; */
+    column-gap: 5vw;
+
+    align-items: center;
+    justify-content: start;
+    padding-inline: 10vw;
+    /* border: 0.5px solid white; */
+    /* padding-block: 7vh; */
+    /* background-color: red; */
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5vw;
+    /* flex: 0 0 auto; */
+    width: 80vw;
+
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>div {
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>.image {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>.image>img {
+    height: 130%;
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    padding-inline: 3vw;
+    padding-top: 5vw;
+    /* border: 1px solid red; */
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>.content>h4 {
+    color: #fff;
+    background-color: #22939b;
+    border-radius: 30px;
+    padding-block: 1vw;
+    /* width: 8vw; */
+    text-align: center;
+    font-size: 3vw;
+    padding-inline: 2vw;
+
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>.content>h2 {
+    font-size: 5vw;
+    padding-top: 1vw;
+}
+
+.w-mob-home-screen5b>.wrapper>.grid-item>.card>.content>p {
+    font-size: 3vw;
+    line-height: 3.5vw;
+    text-align: justify;
+    padding-top: 1vw;
+}

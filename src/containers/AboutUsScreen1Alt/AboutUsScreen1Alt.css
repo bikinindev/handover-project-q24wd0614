@@ -1,0 +1,377 @@
+.w-pc-about-us-screen-1-alt {
+    /* background-color: rgb(226, 226, 226); */
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:cadetblue;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.background>.frame{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.background>.frame>img {
+    width: 110%;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.069);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display{
+    /* background-color: cadetblue; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 25vh;
+    
+    /* justify-content: center; */
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.banner>h1{
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'CustomPoppinsBold';
+    color: #fff;
+}
+
+
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #f3f3f3f8;
+    padding-inline: 9vw;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container{
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 17% 83%;
+    height: 80%;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.title {
+    display: flex;
+    justify-content: center;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.title>h1 {
+    /* font-size: 30px; */
+    font-family: 'CustomPoppinsBold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 2vw;
+    padding-block: 3.4vh;
+    font-size: 4vh;
+    background-color: rgb(152, 227, 40);
+    color: #fff;;
+    transform: translateY(20%);
+    border-radius: 40px;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper{
+    /* border: 1px solid blue; */
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 19px;
+
+    display: grid;
+    grid-template-columns: 19% 81%;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>
+.grid-item.image>.frame{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 11vw;
+    width: 11vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.image>.frame
+>img {
+    height: 113%;
+}
+
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.text>h2{
+    font-family: 'CustomPoppinsBold';
+    font-size: 4vh;
+    margin-bottom: 0.9vh;
+}
+.w-pc-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.text>p {
+
+    font-size: 2.5vh;
+}
+
+
+/* mobile */
+.w-mob-about-us-screen-1-alt {
+    /* background-color: rgb(226, 226, 226); */
+    height: 120vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: relative;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.background>.frame {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.background>.frame>img {
+    height: 100%;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.069);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 102;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display {
+    /* background-color: cadetblue; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45% 55%;
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 25vh;
+
+    /* justify-content: center; */
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.banner>h1 {
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'CustomPoppinsBold';
+    color: #fff;
+}
+
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #f3f3f34d;
+    backdrop-filter: blur(9px);
+    padding-inline: 5vw;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container{
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    height: 95%;
+    width: 100%;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.title{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.title>h1{
+    /* font-size: 30px; */
+    font-family: 'CustomPoppinsBold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 2vw;
+    padding-block: 3.4vh;
+    font-size: 3vh;
+    background-color: rgb(152, 227, 40);
+    color: #fff;
+    transform: translateY(20%);
+    border-radius: 40px;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper{
+    /* border: 1px solid blue; */
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 19px;
+
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 19% 81%; */
+    
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    box-sizing: border-box;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.image>.frame{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.image>.frame>img{
+    height: 113%;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    box-sizing: border-box;
+    padding-top: 1.5vh;
+    padding-inline: 1vh;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.text>h2{
+    font-family: 'CustomPoppinsBold';
+    font-size: 4vh;
+    margin-bottom: 0.9vh;
+    line-height: 109%;
+}
+
+.w-mob-about-us-screen-1-alt>.wrapper>.content.display>.section.reflection>.shape-container>.grid-item.object-wrapper>.grid-item.text>p{
+    font-size: 1.8vh;
+    line-height: 120%;
+}

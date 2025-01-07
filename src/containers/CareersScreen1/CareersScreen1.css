@@ -1,0 +1,674 @@
+.w-pc-careers-screen1{ 
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+.w-pc-careers-screen1>.wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.w-pc-careers-screen1>.wrapper>*{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.w-pc-careers-screen1>.wrapper>.background{
+    overflow: hidden;
+    background-image: url('../../assets/img/career/career.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w-pc-careers-screen1>.wrapper>.background>img{
+    width: 100%;
+}
+
+.w-pc-careers-screen1>.wrapper>.shield{
+    background-color: black;
+    opacity: 39%;
+}
+
+.w-pc-careers-screen1>.wrapper>.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen{
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.tagline{
+    height: 100%;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.tagline>h1{
+    font-size: 8vh;
+    font-weight: bolder;
+    line-height: 130%;
+    font-family: 'CustomPoppinsBold';
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.tagline>h2{
+    font-size: 3vh;
+    font-weight: bolder;
+    line-height: 140%;
+    /* font-family: 'CustomPoppinsBold'; */
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form{
+    height: 100%;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    height: 40vh;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>h2{
+    font-size: 4vh;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>p{
+    margin-bottom: 2vh;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 6.9vh;
+    margin-block: 1vh;
+    padding-inline: 1.3vh;
+    padding-block: 0vh;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input.position{
+    width: 15vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form>input.dream-job {
+    width: 23vw;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    /* height: 40vh; */
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-inline: 3vw;
+    padding-block: 3vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section{
+    width: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-header{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-bottom: 1vw;
+    width: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-header>h3{
+    font-family: 'CustomPoppinsBold';
+    font-size: 2.2vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    width: 100%;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group.location{
+    padding-right: 0.5vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group.division{
+    padding-left: 0.5vw;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>select{
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+    padding: 1vw;
+    margin: 0;
+    color: rgb(19, 19, 19);
+    font-size: 0.9vw;
+    width: 100%;
+}
+/* .w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>#division>option{
+    color: red ;
+    font-size: 12px;
+} */
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>.form-group.roles{
+    box-sizing: border-box;
+    /* padding-bottom: 1vw; */
+    width: 78%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>.form-group.roles>input{
+    border: 0;
+    padding-block: 1vw;
+    padding-inline: 0.6vw;
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+
+    
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2 {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>button{
+    border: none;
+    /* border-radius: 5px; */
+    outline: none;
+    cursor: pointer;
+    padding-block: 0.8vw;
+    padding-inline: 0.7vw;
+    width: 22%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s ease-out;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>button:hover{
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+}
+
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-button{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.w-pc-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-button>button{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding-block: 0.8vw;
+    padding-inline: 0.7vw;
+    width: 22%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tab view */
+.w-tab-careers-screen1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+
+.w-tab-careers-screen1>.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.w-tab-careers-screen1>.wrapper>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.w-tab-careers-screen1>.wrapper>.background {
+    overflow: hidden;
+}
+
+.w-tab-careers-screen1>.wrapper>.background>img {
+    width: 100%;
+}
+
+.w-tab-careers-screen1>.wrapper>.shield {
+    background-color: black;
+    opacity: 39%;
+}
+
+.w-tab-careers-screen1>.wrapper>.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen {
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.tagline {
+    height: 100%;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.tagline>h1 {
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form {
+    height: 100%;
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    height: 22vh;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form>input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 3vh;
+    margin-block: 2vh;
+    padding-inline: 1.8vh;
+    padding-block: 0.7vh;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form>input.position {
+    width: 15vw;
+}
+
+.w-tab-careers-screen1>.wrapper>.content>.screen.form>.form>input.dream-job {
+    width: 23vw;
+}
+
+/* mobile view */
+.w-mob-careers-screen1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+
+.w-mob-careers-screen1>.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.w-mob-careers-screen1>.wrapper>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.w-mob-careers-screen1>.wrapper>.background {
+    overflow: hidden;
+    background-image: url('../../assets/img/career/career.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.w-mob-careers-screen1>.wrapper>.background>img {
+    width: 100%;
+}
+
+.w-mob-careers-screen1>.wrapper>.shield {
+    background-color: black;
+    opacity: 50%;
+}
+
+.w-mob-careers-screen1>.wrapper>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    
+    padding-inline: 3vw;
+    box-sizing: border-box;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen {
+    /* border: 1px solid red; */
+    height: 100%;
+    box-sizing: border-box;
+    /* background-color: rgba(255, 255, 0, 0.249); */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.tagline {
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    box-sizing: border-box;
+    padding-inline: 1vw;
+    /* border: 1px solid red; */
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.tagline>h1 {
+    font-size: 5vh;
+    font-weight: bolder;
+    line-height: 110%;
+    font-family: 'CustomPoppinsBold';
+    box-sizing: border-box;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.tagline>h2 {
+    font-size: 2vh;
+    font-weight: bolder;
+    line-height: 130%;
+    text-align: center;
+    /* font-family: 'CustomPoppinsBold'; */
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    height: 40vh;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* padding-left: 3vw; */
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>h2 {
+
+    font-size: 4vh;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>p {
+    margin-bottom: 2vh;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 6.9vh;
+    margin-block: 1vh;
+    padding-inline: 1.3vh;
+    padding-block: 0vh;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input.position {
+    width: 15vw;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form>input.dream-job {
+    width: 23vw;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #043639a3;
+    backdrop-filter: blur(8px);
+    /* height: 40vh; */
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-inline: 2vh;
+    padding-block: 3vh;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section {
+    width: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-header {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-bottom:0vh;
+    width: 100%;
+    margin-block: 2vh;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-header>h3 {
+    font-family: 'CustomPoppinsBold';
+    font-size: xx-large;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1 {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0vw;
+    width: 100%;
+    margin-bottom: 1.5vh;
+
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group.location {
+    padding-right: 0.5vh;
+    box-sizing: border-box;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group.division {
+    padding-left: 0.5vh;
+    box-sizing: border-box;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>select {
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+    padding: 1.5vh;
+    margin: 0;
+    color: rgb(19, 19, 19);
+    font-size: small;
+    width: 100%;
+}
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>select>option{
+    background-color: red;
+}
+
+/* .w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-1>.form-group>#division>option{
+    color: red ;
+    font-size: 12px;
+} */
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2 {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>.form-group.roles {
+    box-sizing: border-box;
+    /* padding-bottom: 1vw; */
+    width: 78%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>.form-group.roles>input {
+    border: 0;
+    /* padding-block: 1vw; */
+    padding: 2vh;
+    /* padding-inline: 0.6vw; */
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+
+
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2 {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>button {
+    border: none;
+    /* border-radius: 5px; */
+    outline: none;
+    cursor: pointer;
+    padding-block: 0.8vw;
+    padding-inline: 0.7vw;
+    width: 22%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s ease-out;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-2>button:hover {
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-button {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.w-mob-careers-screen1>.wrapper>.content>.screen.form>.form-container>.form-section.box-button>button {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding-block: 0.8vw;
+    padding-inline: 0.7vw;
+    width: 22%;
+}
