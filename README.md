@@ -24,20 +24,22 @@ no backend is implemented for this project
 # Running
 1. Clone the repository by open terminal or command prompt
 ```bash
-    git clone <repository_name>
+    git clone https://github.com/bikinindev/handover-project-q24wd0614
 ```
 
-2. Open the folder
+2. Make sure folder "assets" is placed under folder src
+
+3. Open the folder
 ```bash
-    cd <folder_name>
+    cd handover-project-q24wd0614
 ```
 
-3. Install Dependency
+4. Install Dependency
 ```bash
     npm install
 ```
 
-4. Run the development stage
+5. Run the development stage
 ```bash
     npm start
 ```
